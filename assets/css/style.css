@@ -68,6 +68,10 @@ section.bottom{
   color: #ffffff;;
 }
 
+.top button:first-child i{
+  margin-right: 10px;
+}
+
 
 
 
