@@ -3,3 +3,59 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+img{
+  width: 100%;
+}
+
+
+
+
+/* SECTION */
+section{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 100px; 
+  overflow: scroll;
+}
+
+section.top, section.center{
+  background-color: #000000;
+}
+
+section.top{
+  height: 80px;
+  border: 1px white solid;
+}
+
+section.center{
+  height: calc(100vh - 180px);
+}
+
+section.bottom{
+  height: 100px;
+  background-color: #222222;
+}
+
+
+
+
+/* CARD */
+.card{
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 10px 5px;
+}
+
+.name{
+  position: absolute;
+  bottom: 0px;
+  padding: 8px 6px;
+  color: #ffffff;
+  background-color: rgba(103, 115, 125, .7);
+}
+
+.name span{
+  text-transform: capitalize;
+}
