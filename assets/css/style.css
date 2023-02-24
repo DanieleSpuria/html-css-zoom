@@ -96,6 +96,7 @@ section.bottom{
 .left, .center{
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .left i, .center i{
@@ -121,6 +122,10 @@ section.bottom{
 
 .center .btn:nth-child(4) i{
   color: #4ac700;
+}
+
+.right{
+  flex-shrink: 0;
 }
 
 .right button{
